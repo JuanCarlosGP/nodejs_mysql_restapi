@@ -6,3 +6,7 @@
 ##### npm i nodemon -D
 #### Después de tener en package.json el script dev definido ya podemos usar este inicializador
 ##### npm run dev
+#### Creamos la base de datos ./db/database.sql
+#### Instalamos el módulo de conexión (Instalamos la segunda versión porque es más actualizada)
+##### npm i mysql2
+#### Creamos el archivo de conexión db.js

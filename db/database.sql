@@ -7,3 +7,10 @@ CREATE TABLE employee(
     salary INT(5) DEFAULT NULL,
     PRIMARY KEY (id)
 )
+
+INSERT INTO employee VALUES
+    (1, 'John', 1000),
+    (2, 'Joe', 2000),
+    (3, 'Henry', 3000),
+    (4, 'Sam', 4000),
+    (5, 'Max', 5000);

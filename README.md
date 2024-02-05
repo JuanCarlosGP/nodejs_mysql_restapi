@@ -10,3 +10,6 @@
 #### Instalamos el módulo de conexión (Instalamos la segunda versión porque es más actualizada)
 ##### npm i mysql2
 #### Creamos el archivo de conexión db.js
+
+#### instalamos el módulo para las variables de entorno (permite leer archivos .env)
+##### npm i dotenv

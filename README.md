@@ -30,3 +30,28 @@
  - **Install Dependencies:**
    ```sh
    npm install
+ - **Start the Application:**
+   ```sh
+   npm run dev
+### Note: Prerequisites.
+- <a href="https://nodejs.org/en">Node.js:</a> Required to run the project and manage packages.
+- <a href="https://www.mysql.com/">MySQL:</a> The project uses MySQL as its database.
+- <a href="https://git-scm.com/downloads/">Git:</a> Git is needed to clone the repository and manage versions.
+#### Additional Setup:
+  - **Initialize the Project:**
+    ```sh
+    npm init -y
+    ```
+  - **Install Express:**
+    ```sh
+    npm i express
+    ```
+ - **Install MySQL Connection Module:**
+   ```sh
+   npm i mysql2
+ - **Install Dotenv for Environment Variables:**
+   ```sh
+   npm i dotenv
+- **Database Setup:**
+    ##### Create the database using the SQL file located at ./db/database.sql.
+
